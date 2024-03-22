@@ -1,0 +1,32 @@
+{
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.matchBrackets": "never",
+    "editor.linkedEditing": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "gutterpreview.imagePreviewMaxHeight": 1920,
+    "gutterpreview.imagePreviewMaxWidth": 1080,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "workbench.startupEditor": "none",
+    "terminal.integrated.automationProfile.linux": {},
+    "terminal.integrated.shellArgs.linux": [
+        "--init-file",
+        "${env:HOME}/.bashrc"
+    ]
+}

@@ -4,9 +4,9 @@ from .models import Servicios
 # Register your models here.
 
 #creamos una clase para poder mostrar la fecha que se va ingresar automatico
-# class servicioAdmin(admin.ModelAdmin):
-#     readonly_fields=('creadted', 'update')
+class servicioAdmin(admin.ModelAdmin):
+     readonly_fields=('created', 'update')
     
     
 #con esto agrego al panel del adminstrador
-admin.site.register(Servicios)
+admin.site.register(Servicios,servicioAdmin)
